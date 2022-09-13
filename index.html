@@ -12,6 +12,8 @@
     <!--Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--Fontawesome Icon-->
+    <script src="https://kit.fontawesome.com/a7d50ef871.js" crossorigin="anonymous"></script>
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,15 +39,15 @@
         </div>
 
         <div class="menubar">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid navCon">
+            <nav class="navbar navbar-expand-sm">
+                <div class="navCon">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav m-auto">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">প্রথম পাতা</a>
                             </li>
@@ -115,11 +117,15 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">এপিএ</a>
+                                <a class="nav-link active" aria-current="page" href="#">বার্ষিক কর্মক্ষমতা</a>
                             </li>
 
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">শুদ্ধাচার কৌশল</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">অনলাইন পেমেন্ট</a>
                             </li>
                         </ul>
                     </div>
@@ -127,58 +133,188 @@
             </nav>
         </div>
 
-        <div class="section-1">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="sec-1-left col-md-9">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <img src="img/golden_jubilee.png" width="170px" height="100px">
-                            </div>
-                            <div class="col-md-9">
-                                <span class="heading">স্বাধীনতার সুবর্ণজয়ন্তী</span><br><br>
+        <!----------------------Navbar End------------------------->
 
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 pe-lg-0 pe-md-0">
+                <div class="section-1 left">
+                    <div class="sec-1-left col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <img src="img/golden_jubilee.png" class="text-center" width="170px" height="100px">
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <span class="heading">স্বাধীনতার সুবর্ণজয়ন্তী</span>
+                                <br><br>
                                 <a href="#">সুবর্ণজয়ন্তী ছবির গ্যালারী</a><br>
                                 <input type="submit" value="সকল">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-    
-                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="section-2">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="sec-2-left col-md-9">
+                <!----------------------Section 1 Left side End------------------------->
+
+                <div class="section-2 left">
+                    <div class="sec-2-left col-lg-12 col-md-12 col-sm-12">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-lg-3 col-md-3 col-sm-3 text-center">
                                 <img src="img/noticeboard.png" width="100px" height="100px">
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-lg-9 col-md-9 col-sm-9 list">
                                 <span class="heading">নোটিশ বোর্ড</span>
                                 <ul class="notice">
-                                    <li><a href="#">বেতন আদায় বিজ্ঞপ্তি</a></li>
-                                    <li><a href="#">জরুরী বিজ্ঞপ্তি</a></li>
-                                    <li><a href="#">পাঠদান সংক্রান্ত বিজ্ঞপ্তি</a></li>
-                                    <li><a href="#">২০২২ সালের এস এস সি পরীক্ষার্থীদের বিদায় অনুষ্ঠান</a></li>
-                                    <li><a href="#">মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের আওতাধীন সকল শিক্ষা প্রতিষ্ঠানে কোভিড-১৯ অতিমারির কারণে চলমান Assig</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>বেতন আদায় বিজ্ঞপ্তি</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>জরুরী বিজ্ঞপ্তি</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>পাঠদান সংক্রান্ত বিজ্ঞপ্তি</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>২০২২ সালের এস এস সি পরীক্ষার্থীদের বিদায় অনুষ্ঠান</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের আওতাধীন সকল শিক্ষা
+                                            প্রতিষ্ঠানে কোভিড-১৯ অতিমারির কারণে চলমান Assig</a></li>
                                 </ul>
                                 <br>
                                 <input type="submit" value="সকল">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                </div>
 
+                <!----------------------Section 2 Left side End------------------------->
+
+                <div class="section-3 left">
+                    <div class="sec-3-left ps-2 pe-3 mt-3">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-1 col-sm-1">
+                                <p class="mb-0">
+                                    খবর :
+                                </p>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10">
+                                <marquee behavior="SCROLL" scrolldelay="150" direction="" onmouseover="this.stop();"
+                                onmouseout="this.start();">
+                                <div>
+                                    &nbsp;&nbsp;<a class="scrollText" href="#">১৫/৮/২২ তারিখের মধ্যে বিদ্যালয়ের সকল পাওনাদি
+                                        পরিশোধ করতে বলা হলো। প্রধান শিক্ষক,নাসবাউবি।</a>&nbsp;&nbsp;
+                                </div>
+                            </marquee>
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-1">
+                                <input type="submit" value="সকল">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------------------Section 3 Left side End------------------------->
+
+                <div class="section-4 left">
+                    <div class="sec-2-left col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                                <img src="img/download.png" width="100px" height="100px">
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 list">
+                                <span class="heading">ডাউনলোডস</span>
+                                <ul class="notice">
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>জরুরী বিজ্ঞপ্তি</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের আওতাধীন সকল শিক্ষা প্রতিষ্ঠানে
+                                            কোভিড-১৯ অতিমারির কারণে চলমান Assignment কার্যক্রম স্থগিত সংক্রান্ত।</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>২০২২ শিক্ষাবর্ষের ৬ষ্ঠ থেকে ১০ম শ্রেণির শিক্ষার্থীদের জন্য
+                                            অ্যাসাইনমেন্ট (৬ষ্ঠ সপ্তাহ)</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>২০২২ সালের এস.এস.সি পরীক্ষার্থীদের জন্য অ্যাসাইনমেন্ট (১৫শ
+                                            সপ্তাহ)</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-angle-right"></i>২০২২ শিক্ষাবর্ষের ৬ষ্ঠ থেকে ১০ম শ্রেণির শিক্ষার্থীদের জন্য
+                                            অ্যাসাইনমেন্ট (৫ম সপ্তাহ)</a></li>
+                                </ul>
+                                <br>
+                                <input type="submit" value="সকল">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!----------------------Section 4 Left side End------------------------->
+
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="section-1 right">
+                    <div class="sec-1-right col-lg-12 col-md-12 col-sm-12">
+                        <div class="headding col-lg-12 col-md-12 col-sm-12">
+                            <span>প্রধান শিক্ষক (ভারঃ)</span>
+                        </div>
+                        <div class="teacherImg text-center">
+                            <img src="img/20160516175831.jpg" alt="Teacher Image">
+                            <span>মোঃ হারুন-অর-রশিদ</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!----------------------Section 1 Right side End------------------------->
+                
+                <div class="section-2 right">
+                    <div class="sec-2-right col-lg-12 col-md-12 col-sm-12">
+                        <div class="headding col-lg-12 col-md-12 col-sm-12 mt-2">
+                            <span>অভ্যন্তরীণ ই-সেবা</span>
+                        </div>
+                        <div class="service list">
+                            <ul class="mt-1">
+                                <li>
+                                    <a href="#" style="color: #FF0000;"><i class="fa-solid fa-angle-right"></i>ই-স্কুল</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>পাঠশালা</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>পিডিএস (সরকারি মাধ্যমিক)</a></li>
+                                <li><a href="#" style="color: #FF0000;"><i class="fa-solid fa-angle-right"></i>ভর্তি পরীক্ষার আবেদন</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!----------------------Section 2 Right side End------------------------->
+                
+                <div class="section-3 right">
+                    <div class="sec-3-right col-lg-12 col-md-12 col-sm-12">
+                        <div class="headding col-lg-12 col-md-12 col-sm-12 mt-2">
+                            <span>গুরুত্বপূর্ণ লিংক</span>
+                        </div>
+                        <div class="importantLink list">
+                            <ul class="mt-1">
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>শিক্ষা মন্ত্রণালয়</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>ব্যানবেইজ</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>নায়েম</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>এনসিটিবি</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>শিক্ষক বাতায়ন</a></li>
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>কিশোর বাতায়ন</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+                
+                <!----------------------Section 3 Right side End------------------------->
+                
+                <div class="section-4 right">
+                    <div class="sec-4-right col-lg-12 col-md-12 col-sm-12">
+                        <div class="headding col-lg-12 col-md-12 col-sm-12 mt-2">
+                            <span>ওয়েব মাস্টার</span>
+                        </div>
+                        <div class="web list">
+                            <ul class="mt-1">
+                                <li><a href="#"><i class="fa-solid fa-angle-right"></i>ওয়েব মাস্টার লগইন</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
+
+
+
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

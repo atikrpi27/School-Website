@@ -55,9 +55,6 @@ body {
     color: white;
     text-shadow: 2px 2px 2px #000000, 3px 3px 2px #000000;
 }
-.menubar{
-    /* margin: 10px 0px 10px 0px; */
-}
 
 nav{
     margin: 0px;
@@ -66,6 +63,10 @@ nav{
 
 .navCon{
     background: linear-gradient(#F0F0F0, #FFFFFF);
+}
+
+.dropdown a{
+    color: #000000;
 }
 
 .navbar ul{
@@ -84,22 +85,36 @@ nav{
     border-right:1px dotted #cccccc;
 }
 
-.section-1{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    
-
+.navbar ul li:hover{
+    background-color: #06A3FF;
+    border-radius: 5px;
 }
+
+.navbar ul li a:hover{
+    color: #ffffff;
+}
+
+/* .dropdown-item:hover{
+    background-color: 06A3FF;
+    color: #ffffff;
+} */
 
 .sec-1-left{
     background: linear-gradient(#F0F0F0, #FFFFFF);
     border: 1px dotted #CCCCCC;
-    float: left;
+    padding: 5px;
+}
+
+.sec-2-left, .sec-3-left, .sec-4-left, .sec-5-left ,.sec-6-left{
+    background: linear-gradient(#F0F0F0, #FFFFFF);
+    border: 1px dotted #CCCCCC;
+    margin-top: 10px;
+    padding: 5px;
 }
 
 .heading{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     color: #000000;
 }
 
@@ -116,9 +131,9 @@ nav{
     color: rgb(34, 34, 255);
 }
 
-.sec-1-left input, .sec-2-left input{
+.sec-1-left input, .sec-2-left input, .sec-3-left input, .sec-4-left input{
     float: right;
-    /* padding: 10px 10px 10px 0px; */
+    padding-top: 3px !important;
     font-family: Noto Sans Bengali;
     font-size: 10pt;
     font-weight: normal;
@@ -132,14 +147,24 @@ nav{
     background-color: #CCCCCC;
 }
 
-.section-2{
-    margin-top: 10px;
+.headding{
+    font-family: Noto Sans Bengali;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #06A3FF;
+    color: #FFFFFF;
+    padding: 5px 0px 5px 7px;
 }
 
-.sec-2-left{
-    background: linear-gradient(#F0F0F0, #FFFFFF);
-    border: 1px dotted #CCCCCC;
-    float: left;
+.teacherImg{
+    padding-top: 7px;
+}
+
+.teacherImg span{
+    display: block;
+    font-family: Noto Sans Bengali;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .notice a{
@@ -150,3 +175,53 @@ nav{
     font-family: 'Noto Sans Bengali', sans-serif;
     border-bottom: 1px dotted #cccccc;
 }
+.sec-3-left p{
+    margin-top: 6px !important;
+}
+.sec-3-left p,
+.sec-3-left a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* .sec-3-left span{
+    padding-left: 10px;
+    width: 40px;
+} */
+
+/* .sec-3-left marquee{
+    width: 83%;
+} */
+
+.list ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.list ul li a{
+    font-family: Noto Sans Bengali;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000
+}
+
+.list ul li a:hover{
+    color: #24a1e9;
+}
+
+.list ul li a i{
+    font-size: 8px;
+    font-weight: bold;
+    color: rgb(247, 34, 34);
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+.sec-3-left input{
+    float:left !important;
+}
+  }
