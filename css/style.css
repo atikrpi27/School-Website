@@ -248,6 +248,69 @@ nav{
     padding-bottom: 10px;
 }
 
+.footerImg img {
+    width: 100%;
+}
+
+.footer-wrapper{
+    background-color: #EBEBEB;
+}
+
+.footerBody-wrapper{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    background-color: #ffffff;
+    width: 960px;
+    border-radius: 0px;
+    box-shadow: 0px 12px 15px 0px #737272;
+}
+
+.footer-menu ul {
+    float: left;
+    width: 100%;
+    margin-bottom: 12px;
+    list-style-type: none;
+}
+
+.footer-menu ul li:first-child {
+    border-left: solid 1px #eee;
+}
+
+.footer-menu ul li{
+    float: left;
+    border-left: solid 1px #ccc;
+    list-style: none;
+}
+
+.footer-menu ul a{
+    font-size: 14px;
+    font-family: Noto Sans Bengali;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-menu ul li a:hover {
+    color: #fff;
+    background: #9F9F9F;
+    border-radius: 3px;
+}
+
+.footer p{
+    float: left;
+    font-size: 12px;
+    font-family: Noto Sans Bengali;
+    margin: 0 20px 0 40px;
+}
+
+.footer a {
+    color: #6F716C;
+    font-size: 12px;
+    font-family: Noto Sans Bengali;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 576px) {
 .sec-3-left input{
