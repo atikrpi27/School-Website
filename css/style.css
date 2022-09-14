@@ -77,7 +77,6 @@ nav{
     padding-right: 0px;
 }
 
-
 .navbar ul li a{
     font-family: 'Noto Sans Bengali', sans-serif;
     font-size: 14px;
@@ -91,13 +90,10 @@ nav{
 }
 
 .navbar ul li a:hover{
-    color: #ffffff;
+    color: #ffffff !important;
+    background-color: #06A3FF;
+    border-radius: 5px;
 }
-
-/* .dropdown-item:hover{
-    background-color: 06A3FF;
-    color: #ffffff;
-} */
 
 .sec-1-left{
     background: linear-gradient(#F0F0F0, #FFFFFF);
@@ -105,7 +101,7 @@ nav{
     padding: 5px;
 }
 
-.sec-2-left, .sec-3-left, .sec-4-left, .sec-5-left ,.sec-6-left{
+.sec-2-left, .sec-3-left, .sec-4-left{
     background: linear-gradient(#F0F0F0, #FFFFFF);
     border: 1px dotted #CCCCCC;
     margin-top: 10px;
@@ -173,7 +169,7 @@ nav{
     font-size: 12px;
     font-weight: bold;
     font-family: 'Noto Sans Bengali', sans-serif;
-    border-bottom: 1px dotted #cccccc;
+    /* border-bottom: 1px dotted #cccccc; */
 }
 .sec-3-left p{
     margin-top: 6px !important;
@@ -186,15 +182,6 @@ nav{
     font-size: 12px;
     font-weight: bold;
 }
-
-/* .sec-3-left span{
-    padding-left: 10px;
-    width: 40px;
-} */
-
-/* .sec-3-left marquee{
-    width: 83%;
-} */
 
 .list ul{
     list-style-type: none;
@@ -213,12 +200,54 @@ nav{
     color: #24a1e9;
 }
 
-.list ul li a i{
+.list ul li a i,
+.bodyList ul li a i{
     font-size: 8px;
     font-weight: bold;
     color: rgb(247, 34, 34);
     padding-right: 5px;
 }
+
+.section-5, 
+.sec-5{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.sec-5-left-left,
+.sec-5-left-right{
+    width: 100%;
+    margin: 0 auto;
+    /* background: linear-gradient(#F0F0F0, #FFFFFF);
+    border: 1px dotted #CCCCCC; */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin-bottom: 15px;
+}
+
+.sec-5-left-left p,
+.sec-5-left-right p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Noto Sans Bengali;
+    /* text-align: center; */
+    padding: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.sec-5-left-left img,
+.sec-5-left-right img{
+    padding-left: 10px;
+}
+
+.bodyList ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
 
 @media only screen and (max-width: 576px) {
 .sec-3-left input{
