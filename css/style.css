@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+.bodywrap{
+    overflow-x: hidden !important;
+}
+
 body {
     background-image: url('../img/background.png');
     font-family: Noto Sans Bengali;
@@ -95,6 +99,10 @@ nav{
     border-radius: 5px;
 }
 
+.dropdown-menu {
+    min-width: 12rem !important;
+}
+
 .sec-1-left{
     background: linear-gradient(#F0F0F0, #FFFFFF);
     border: 1px dotted #CCCCCC;
@@ -169,11 +177,12 @@ nav{
     font-size: 12px;
     font-weight: bold;
     font-family: 'Noto Sans Bengali', sans-serif;
-    /* border-bottom: 1px dotted #cccccc; */
 }
+
 .sec-3-left p{
     margin-top: 6px !important;
 }
+
 .sec-3-left p,
 .sec-3-left a{
     text-decoration: none;
@@ -208,6 +217,19 @@ nav{
     padding-right: 5px;
 }
 
+.row .mbl{
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.mbl .sec-5-left-left {
+    width: 48%;
+}
+
+.mbl .sec-5-left-right {
+    width: 48%;
+}
+
 .section-5, 
 .sec-5{
     width: 100%;
@@ -219,8 +241,6 @@ nav{
 .sec-5-left-right{
     width: 100%;
     margin: 0 auto;
-    /* background: linear-gradient(#F0F0F0, #FFFFFF);
-    border: 1px dotted #CCCCCC; */
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     margin-bottom: 15px;
 }
@@ -230,7 +250,6 @@ nav{
     font-size: 15px;
     font-weight: bold;
     font-family: Noto Sans Bengali;
-    /* text-align: center; */
     padding: 10px;
     padding-bottom: 10px;
     border-bottom: 1px dotted #CCCCCC;
@@ -315,5 +334,9 @@ nav{
 @media only screen and (max-width: 576px) {
 .sec-3-left input{
     float:left !important;
+}
+
+.info img {
+    width: 30% !important;
 }
   }
