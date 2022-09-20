@@ -336,7 +336,35 @@ nav{
     float:left !important;
 }
 
+.m-responsive-img{
+    width: 25% !important;
+}
+.m-responsive-list{
+    width: 75% !important;
+}
+
+.mbl-res{
+    width: 40% !important;
+}
+
+.mbl-res-img{
+    margin-left: 100px;
+}
+
 .info img {
     width: 30% !important;
 }
-  }
+
+.footer-left{
+    width:37% !important;
+}
+
+.footer-middle{
+    width:25% !important;
+}
+
+.footer-right{
+    width:38% !important;
+}
+
+}
